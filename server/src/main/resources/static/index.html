@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>전공 기반 자격증 추천 시스템</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>전공 기반 자격증 추천 시스템</h1>
+  <p>수강한 전공 과목을 선택하세요.</p>
+
+  <h3>1학년 2학기</h3>
+  <div class="subject-grid">
+    <label><input type="checkbox" value="빅데이터프로그래밍"> 빅데이터프로그래밍</label>
+    <label><input type="checkbox" value="이산수학"> 이산수학</label>
+    <label><input type="checkbox" value="그래픽디자인"> 그래픽디자인</label>
+  </div>
+
+  <h3>2학년 1학기</h3>
+  <div class="subject-grid">
+    <label><input type="checkbox" value="AI수학"> AI수학</label>
+    <label><input type="checkbox" value="컴퓨터네트워크"> 컴퓨터네트워크</label>
+    <label><input type="checkbox" value="객체지향프로그래밍"> 객체지향프로그래밍</label>
+    <label><input type="checkbox" value="오픈소스소프트웨어실습"> 오픈소스소프트웨어실습</label>
+    <label><input type="checkbox" value="인터랙티브미디어개론"> 인터랙티브미디어개론</label>
+  </div>
+
+  <h3>2학년 2학기</h3>
+  <div class="subject-grid">
+    <label><input type="checkbox" value="자료구조"> 자료구조</label>
+    <label><input type="checkbox" value="데이터마이닝"> 데이터마이닝</label>
+    <label><input type="checkbox" value="모바일프로그래밍"> 모바일프로그래밍</label>
+    <label><input type="checkbox" value="비주얼컴퓨팅"> 비주얼컴퓨팅</label>
+    <label><input type="checkbox" value="인터랙티브심리학"> 인터랙티브심리학</label>
+  </div>
+
+  <h3>3학년 1학기</h3>
+  <div class="subject-grid">
+    <label><input type="checkbox" value="IoT시스템설계및실습"> IoT시스템설계및실습</label>
+    <label><input type="checkbox" value="데이터베이스"> 데이터베이스</label>
+    <label><input type="checkbox" value="기계학습"> 기계학습</label>
+    <label><input type="checkbox" value="컴퓨터비전"> 컴퓨터비전</label>
+    <label><input type="checkbox" value="컴퓨터그래픽스"> 컴퓨터그래픽스</label>
+    <label><input type="checkbox" value="UX/UI디자인"> UX/UI디자인</label>
+  </div>
+
+  <h3>3학년 2학기</h3>
+  <div class="subject-grid">
+    <label><input type="checkbox" value="텍스트마이닝"> 텍스트마이닝</label>
+    <label><input type="checkbox" value="빅데이터알고리즘"> 빅데이터알고리즘</label>
+    <label><input type="checkbox" value="딥러닝프로그래밍"> 딥러닝프로그래밍</label>
+    <label><input type="checkbox" value="HCI와UX평가"> HCI와UX평가</label>
+  </div>
+
+  <h3>4학년 1학기</h3>
+  <div class="subject-grid">
+    <label><input type="checkbox" value="데이터시각화"> 데이터시각화</label>
+    <label><input type="checkbox" value="MLOps엔지니어링"> MLOps엔지니어링</label>
+    <label><input type="checkbox" value="네트워크데이터분석"> 네트워크데이터분석</label>
+    <label><input type="checkbox" value="영상AI생성모델"> 영상AI생성모델</label>
+    <label><input type="checkbox" value="산학협력캡스톤설계1"> 산학협력캡스톤설계1</label>
+  </div>
+
+  <h3>4학년 2학기</h3>
+  <div class="subject-grid">
+    <label><input type="checkbox" value="ICT융합전략"> ICT융합전략</label>
+    <label><input type="checkbox" value="인공지능응용"> 인공지능응용</label>
+    <label><input type="checkbox" value="산학협력캡스톤설계2"> 산학협력캡스톤설계2</label>
+  </div>
+
+  <button id="showBtn">자격증 추천받기</button>
+
+  <hr>
+
+  <h2>과목별 추천 자격증</h2>
+  <div id="result"></div>
+
+  <h2>최종 추천 순위</h2>
+  <div id="ranking"></div>
+
+  <h2>자격증 상세 정보</h2>
+  <div id="detail"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
