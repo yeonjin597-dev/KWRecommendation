@@ -45,3 +45,8 @@ mvn spring-boot:run
 - 17개 IT 자격증 (국가/국제) 데이터
 - Jaccard 유사도 알고리즘 기반 연관도 계산
 - Spring Boot REST API + 웹 UI 연동
+
+  (Railway 구현 UI 고정 도메인 - http://localhost:8080으로 접속이 안될 시 사용)
+- certrecommendationserver-production.up.railway.app 
+
+  
